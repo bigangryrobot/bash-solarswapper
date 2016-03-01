@@ -121,3 +121,5 @@ else
 fi  
 exit 0
 endmsg
+tail -n 1000 /var/log/tomcat6/catalina.out | grep SEVERE
+chmod +x soloarswaper.sh ; ./soloarswaper.sh
